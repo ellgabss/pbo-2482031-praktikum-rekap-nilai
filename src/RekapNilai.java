@@ -28,6 +28,8 @@ public class RekapNilai {
 
             jumlah++;
 
+    // Percobaan urutan dibalik (>= 60 paling atas): nilai 85 jadi grade D — Kurang,
+    // karena 85 >= 60 sudah true lebih dulu sehingga cabang >= 80 dan >= 90 tidak pernah dicek
             char grade;
             if (nilai >= 90) {
                 grade = 'A';
