@@ -21,6 +21,10 @@ public class RekapNilai {
             if (nilai == SELESAI) {
                 continue;
             }
+            if (nilai < 0 || nilai > 100) {
+                System.out.println("  ditolak — nilai harus 0..100");
+                continue;
+            }
 
             jumlah++;
 
